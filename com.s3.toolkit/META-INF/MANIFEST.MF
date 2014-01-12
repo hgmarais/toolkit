@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Toolkit
+Bundle-SymbolicName: com.s3.toolkit; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.s3.toolkit.Activator
+Bundle-Vendor: S3
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.core.resources,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.wst.sse.core;bundle-version="1.1.601",
+ org.eclipse.wst.sse.ui;bundle-version="1.3.1",
+ org.eclipse.wst.xml.core;bundle-version="1.1.601",
+ org.eclipse.wst.xml.ui;bundle-version="1.1.201",
+ org.eclipse.wst.common.ui;bundle-version="1.1.500",
+ org.eclipse.ui.ide,
+ org.eclipse.ui.forms;bundle-version="3.5.100",
+ org.eclipse.ui.views;bundle-version="3.6.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: lib/dom4j-1.6.1.jar,
+ .,
+ lib/miglayout-4.0-swt.jar
